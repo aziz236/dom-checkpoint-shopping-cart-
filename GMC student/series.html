@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<html>
+
+<head>
+    <title>
+        series Section
+    </title>
+    <link rel="stylesheet" href="css/component2.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <style>
+        .carousel-indicators li {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            height: none;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .carousel-inner {
+            border-radius: 1%;
+            width: 60%;
+            height: 600px;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        
+        .carousel-control-prev {
+            background-color: black;
+            height: 50px;
+            width: 50px;
+            margin-left: 12.5%;
+            margin-top: 275px;
+        }
+        
+        .carousel-control-next {
+            background-color: black;
+            height: 50px;
+            width: 50px;
+            margin-right: 12.5%;
+            margin-top: 275px;
+        }
+        
+        .trailers {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        iframe {
+            display: inline-block;
+            vertical-align: top;
+            /* or middle, bottom, baseline by your preference */
+        }
+        
+        p {
+            color: gray;
+            font-size: 20px;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        /* Needed to position the navbar */
+        
+        .bg-img {
+            margin-left: -1.5%;
+        }
+        /* Needed to position the navbar */
+        
+        .bg-img {
+            position: sticky;
+        }
+        /* Position the navbar container inside the image */
+        
+        .container {
+            position: none;
+            align-self: start;
+            margin: 0px;
+            width: auto;
+        }
+        /* The navbar */
+        
+        .topnav {
+            overflow: none;
+            background-color: #333;
+        }
+        /* Navbar links */
+        
+        .topnav a {
+            margin-top: none;
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        body {
+            background-image: url('https://images.wallpapersden.com/image/download/dragons-above-cloud-game-of-throne-season-8_64527_7680x4320.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            ;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- navigation menu  -->
+
+    <ul>
+
+        <div class="bg-img">
+            <div class="container" style="display: flex;flex-direction: row;margin-top: 1%;">
+                <img style="height:53px ;width:80px ;border: 3px solid #333 ;background-color: transparent;" src="res/filmhouselogo1.png" alt="filmhouse">
+                <div class="topnav">
+
+                    <a href="login section.html">Sign up</a>
+                    <a href="main page.html">Home</a>
+                    <a href="news.html">News</a>
+                    <a href="about section .html">About</a>
+                    <a href="updates.html">updates</a>
+
+                </div>
+            </div>
+        </div>
+    </ul>
+
+    <!-- presentation  -->
+    <div>
+        <h1 style="color: transparent;">
+            #
+        </h1>
+        <p style="text-align: center;">
+            <img src="res/welcome again.png">
+        </p>
+
+        <p style="text-align: center;">
+            <img src="res/series trailers.png">
+        </p>
+        <p style="text-align: center;">
+            <img src="res/enjoy.png">
+        </p>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <iframe src="https://www.youtube.com/embed/nHN55BirRSE" height="550px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-100" frameborder="1"></iframe>
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <iframe src="https://www.youtube.com/embed/glEtdHJMcow" height="550px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-100" frameborder="1"></iframe>
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <iframe src="https://www.youtube.com/embed/7DemM7UGmIg" height="550px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-100" frameborder="1"></iframe>
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- box container  -->
+    <div class="wrapper">
+        <ul class="stage clearfix">
+
+            <li class="scene">
+                <a href="https://www.imdb.com/title/tt0108778/?ref_=nv_sr_srsg_0">
+                    <div class="movie" onclick="return true">
+                        <div class="poster">
+
+                        </div>
+                        <div class="info">
+
+                            <header>
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hDNNmeeJs1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </header>
+                            <p style="text-align:center; font-size:13px;color:black;">
+                                <b>-FRIENDS-</b>
+                                </br>
+                                Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="scene">
+                <a href="https://www.imdb.com/title/tt0944947/?ref_=nv_sr_srsg_5">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+
+                            <header>
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/gcTkNV5Vg1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </header>
+                            <p style="text-align:center; font-size:13px;color:black;">
+                                <b>-GAME OF THRONES-</b>
+                                </br>
+                                Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.
+
+
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+            <li class="scene">
+                <a href="https://www.imdb.com/title/tt0455275/?ref_=fn_al_tt_1">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AL9zLctDJaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </header>
+                            <p style="text-align:center; font-size:13px;color:black;">
+                                <b>-PRISON BREAK-</b>
+                                </br>
+                                Due to a political conspiracy, an innocent man is sent to death row and his only hope is his brother, who makes it his mission to deliberately get himself sent to the same prison in order to break the both of them out, from the inside.
+
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+            <li class="scene">
+                <a href="https://www.imdb.com/title/tt1520211/?ref_=nv_sr_srsg_0">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/R1v0uFms68U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </header>
+                            <p style="text-align:center; font-size:13px;color:black;">
+                                <b>-THE WALKING DEAD-</b>
+                                </br>
+                                Sheriff Deputy Rick Grimes wakes up from a coma to learn the world is in ruins and must lead a group of survivors to stay alive.
+
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="scene">
+                <a href="https://www.imdb.com/title/tt0903747/?ref_=nv_sr_srsg_0">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HhesaQXLuRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </header>
+                            <p style="text-align:center; font-size:13px;color:black;">
+                                <b>-BREAKING BAD-</b>
+                                </br>
+                                A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.
+
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="scene">
+                <a href="https://www.imdb.com/title/tt2661044/?ref_=nv_sr_srsg_0">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ia1Fbg96vL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </header>
+                            <p style="text-align:center; font-size:13px;color:black;">
+                                <b>-THE HUNDRED-</b>
+                                </br>
+                                Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.
+
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="scene">
+                <a href="https://www.imdb.com/title/tt4574334/?ref_=nv_sr_srsg_0">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/b9EkMc79ZSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </header>
+                            <p style="text-align:center; font-size:13px;color:black;">
+                                <b>-STRANGER THINGS-</b>
+                                </br>
+                                When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.
+
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="scene">
+                <a href="https://www.imdb.com/title/tt2306299/?ref_=nv_sr_srsg_0">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/f5av6OqFwz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </header>
+                            <p style="text-align:center; font-size:13px;color:black;">
+                                <b>-VIKINGS-</b>
+                                </br>
+                                Vikings transports us to the brutal and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore - and raid - the distant shores across the ocean.
+
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="scene">
+                <a href="https://www.imdb.com/title/tt0411008/?ref_=nv_sr_srsg_0">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KTu8iDynwNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </header>
+                            <p style="text-align:center; font-size:13px;color:black;">
+                                <b>-LOST-</b>
+                                </br>
+                                The survivors of a plane crash are forced to work together in order to survive on a seemingly deserted tropical island.
+
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+
+        </ul>
+    </div>
+    <!-- /wrapper -->
+    </div>
+    <!-- /container -->
+    </br>
+
+
+    </br>
+    </br>
+    </br>
+
+
+
+
+
+
+    <div class="footer">
+        <p>
+            <div class="footer">
+                <div class="container">
+                    <div class="topnav">
+                        <a href="https://www.instagram.com/azizbounhas/"><img height="38px" style="width:38 ;height:38 ;" src="res/instagram icon.png" alt="instagram"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100006314118480"><img height="38px" style="width:38 ;height:38 ;" src="res/facebook.jpg"></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox"><img height="38px" style="width:42 ;height:38 ;" src="res/gmail.png"></a>
+                        <a style="color: red;" href=""><img height="38px" style="width:350 ;height:38px ;" src="res/my gmail.png"></a>
+
+
+                    </div>
+                </div>
+            </div>
+        </p>
+    </div>
+
+</body>
+
+</html>
